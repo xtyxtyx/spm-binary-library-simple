@@ -6,7 +6,7 @@
             "type": "library",
             "variants": [
                 {
-                    "path": "macos-universal/libtest.a",
+                    "path": "macos-universal/libfib.a",
                     "libraryMetadata": {
                         "headerPaths": [
                             "include"
@@ -16,6 +16,18 @@
                     "supportedTriples": [
                         "x86_64-apple-macosx",
                         "arm64-apple-macosx"
+                    ]
+                },
+                {
+                    "path": "linux-aarch64/libfib.a",
+                    "libraryMetadata": {
+                        "headerPaths": [
+                            "include"
+                        ],
+                        "moduleMapPath": "module.modulemap"
+                    },
+                    "supportedTriples": [
+                        "aarch64-unknown-linux"
                     ]
                 }
             ]
