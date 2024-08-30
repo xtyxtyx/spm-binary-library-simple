@@ -1,0 +1,5 @@
+module libfib {
+    header "include/fib.h"
+    link "fib"
+    export *
+}
