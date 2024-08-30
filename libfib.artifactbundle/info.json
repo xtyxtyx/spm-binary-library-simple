@@ -41,6 +41,18 @@
                     "supportedTriples": [
                         "x86_64-unknown-linux-gnu"
                     ]
+                },
+                {
+                    "path": "windows-x64/fib.lib",
+                    "libraryMetadata": {
+                        "headerPaths": [
+                            "include"
+                        ],
+                        "moduleMapPath": "module.modulemap"
+                    },
+                    "supportedTriples": [
+                        "x86_64-unknown-windows-msvc"
+                    ]
                 }
             ]
         }
