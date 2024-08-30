@@ -12,6 +12,9 @@ swift build
 
 After building, the `swift-build` executable will be located at `.build/debug/swift-build`.
 
+> On Windows, a development snapshot of Swift is required to build swift-package-manager due to [a bug](https://github.com/swiftlang/swift-package-manager/issues/7410)
+in stable release(5.10.1 as of writing). 
+
 2. Clone and build the example project:
 
 ```sh
